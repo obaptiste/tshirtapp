@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+
 import {
   NgModule,
   ApplicationRef
@@ -26,6 +27,9 @@ import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { AppState, InternalStateType } from './app.service';
 import { HomeComponent } from './home';
 import { AboutComponent } from './about';
+import { ProductsComponent } from './products';
+import { BookingsComponent } from './bookings';
+import { ContactComponent } from './contact';
 import { NoContentComponent } from './no-content';
 import { XLargeDirective } from './home/x-large';
 
@@ -52,6 +56,9 @@ type StoreType = {
   declarations: [
     AppComponent,
     AboutComponent,
+    ProductsComponent,
+    BookingsComponent,
+    ContactComponent,
     HomeComponent,
     NoContentComponent,
     XLargeDirective
@@ -69,7 +76,6 @@ type StoreType = {
    * Expose our Services and Providers into Angular's dependency injection.
    */
   providers: [
-    ENV_PROVIDERS,
     APP_PROVIDERS
   ]
 })
