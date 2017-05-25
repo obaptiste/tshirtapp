@@ -11,12 +11,7 @@ import { ActivatedRoute } from '@angular/router';
   template: `
     <h1>Contact</h1>
     <div>
-     Here i'll put a form to allow messages to management via email
-    </div>
-    <div>
-      <h3>
-        patrick@AngularClass.com
-      </h3>
+      We also do custom t-shirt design and bulk orders. Contact for more details
     </div>
     <pre>this.localState = {{ localState | json }}</pre>
   `

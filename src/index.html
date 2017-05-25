@@ -18,6 +18,7 @@
   <base href="<%= htmlWebpackPlugin.options.metadata.baseUrl %>">
 
   <%= htmlWebpackPlugin.files.webpackManifest %>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 
@@ -26,6 +27,21 @@
   <app>
     Loading...
   </app>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC9uM8mLTFLuepVWLrZHVy54zAdxS2LCVo",
+    authDomain: "t-shirt-app.firebaseapp.com",
+    databaseURL: "https://t-shirt-app.firebaseio.com",
+    projectId: "t-shirt-app",
+    storageBucket: "t-shirt-app.appspot.com",
+    messagingSenderId: "1088069065775"
+  };
+  firebase.initializeApp(config);
+</script>
 
   <!-- Google Analytics: change UA-71073175-1 to be your site's ID -->
   <script>
@@ -42,7 +58,6 @@
   <!-- Webpack Dev Server reload -->
   <script src="/webpack-dev-server.js"></script>
   <% } %>
-
 
 </body>
 </html>

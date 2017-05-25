@@ -19,11 +19,11 @@
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
         About
       </a>
-      <a [routerLink]=" ['./products'] "
+      <a [routerLink]=" ['./t-shirts'] "
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
         Services
       </a>
-      <a [routerLink]=" ['./bookings'] "
+      <a [routerLink]=" ['./orders'] "
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
         Bookings
       </a>
@@ -40,7 +40,7 @@
     <pre class="app-state">this.appState.state = {{ appState.state | json }}</pre>
 
     <footer>
-      <span>Horse Husbandry Helpers <a [href]="url">@AngularClass</a></span>
+      <span>Totally Tasteful Tinted Tees <a [href]="url">@AngularClass</a></span>
       <div>
         <a [href]="url">
           <img [src]="angularclassLogo" width="25%">

@@ -9,10 +9,9 @@ import { ActivatedRoute } from '@angular/router';
   styles: [`
   `],
   template: `
-    <h1>Bookings</h1>
+    <h1>Orders</h1>
     <div>
-    This section would be all about previous bookings if anything exists,
-    or information on booking services
+    This section would show order history to logged in members
   
     <pre>this.localState = {{ localState | json }}</pre>
   `

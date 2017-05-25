@@ -12,7 +12,7 @@ import { AppState } from './app.service';
 })
 export class AppComponent implements OnInit {
   public angularclassLogo = 'assets/img/angularclass-avatar.png';
-  public name = 'Horse Husbandry Helpers';
+  public name = 'Totally Tasteful Tinted Tees';
   public url = 'https://twitter.com/AngularClass';
   
   constructor(
