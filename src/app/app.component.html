@@ -1,4 +1,9 @@
- <nav>
+<header>
+      <h3>Totally Tastefully Tinted Tees</h3>
+  
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+
+    <nav>
       <!--<a [routerLink]=" ['./'] "
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
         Index
@@ -19,20 +24,21 @@
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
         About
       </a>
-      <a [routerLink]=" ['./t-shirts'] "
+      <a [routerLink]=" ['./products'] "
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
-        Services
+        T-Shirts
       </a>
       <a [routerLink]=" ['./orders'] "
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
-        Bookings
+        Orders
       </a>
       <a [routerLink]=" ['./contact'] "
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
         Contact
       </a>
     </nav>
-
+   </div>
+  </header>
     <main>
       <router-outlet></router-outlet>
     </main>
